@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Автозапчасти от Боба - Результаты показа</title>
+</head>
+<body>
+<h1>автозапчасти от Боба</h1>
+<h2>Результаты заказа</h2>
+<?php
+   echo "<p>Заказ обработан.";
+?>
+<?php
+   //создать короткие имена переменных
+   $tiregty=$HTTP_POST_VAR ['tiregty'];
+   $oilgty=$HTTP_POST_VAR['oilgty'];
+   $sparkqty=$HTTP_POST_VAR['sparkqty'];
+   echo <p>Список вашего заказа: </p>;
+   echo $tiregty. 'автопокрышек<br/>;
+   echo $oilgty. 'бутылок с маслом<br/>;
+   echo $sparkqty. 'свечей зажигания<br/>;
+?>
+
+</body>
+</html>
